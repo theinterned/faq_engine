@@ -1,0 +1,22 @@
+<h1>Listing faqs</h1>
+
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Answer</th>
+  </tr>
+
+<% for faq in @faqs %>
+  <tr>
+    <td><%=h faq.question %></td>
+    <td><%=h faq.answer %></td>
+    <td><%= link_to 'Show', faq %></td>
+    <td><%= link_to 'Edit', edit_faq_path(faq) %></td>
+    <td><%= link_to 'Destroy', faq, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New faq', new_faq_path %>
