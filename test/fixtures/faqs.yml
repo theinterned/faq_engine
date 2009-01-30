@@ -1,9 +1,17 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  question: MyString
-  answer: 
+infrequently_asked_question:
+  question: "What... is the capitol of Assyria?"
+  answer: "I don't know that!"
 
-two:
-  question: MyString
-  answer: 
+deadly_faq:
+  question: "What is your favorite colour?" 
+  answer: "green ... no blue!"
+
+no_quesion: 
+  question: 
+  answer: "this one has no question"
+  
+no_answer:
+  question: "this one has now answer"
+  answer:
