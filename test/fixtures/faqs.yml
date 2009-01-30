@@ -6,11 +6,3 @@ infrequently_asked_question:
 deadly_faq:
   question: "What is your favorite colour?" 
   answer: "green ... no blue!"
-
-no_quesion: 
-  question: 
-  answer: "this one has no question"
-  
-no_answer:
-  question: "this one has now answer"
-  answer: 
