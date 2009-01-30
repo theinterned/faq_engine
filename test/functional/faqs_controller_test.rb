@@ -55,4 +55,9 @@ class FaqsControllerTest < ActionController::TestCase
 
     assert_redirected_to faqs_path
   end
+  
+  def test_should_route_to_faq
+    assert_routing '/faqs/1', { :controller => "faqs", :action => "show", :id => "1" }
+  end
+  # more routing tests should be added
 end
