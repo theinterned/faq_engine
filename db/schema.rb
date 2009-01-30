@@ -9,11 +9,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090128182645) do
+ActiveRecord::Schema.define(:version => 20090130153102) do
 
   create_table "faqs", :force => true do |t|
-    t.string   "question"
-    t.string   "answer"
+    t.text     "question",   :limit => 255, :null => false
+    t.text     "answer",     :limit => 255, :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
