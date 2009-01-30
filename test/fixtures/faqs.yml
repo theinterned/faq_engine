@@ -1,4 +1,12 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  question: "Who is doomed?"
+  answer: "I am!"
+
+two:
+  question: "Who is doomed?"
+  answer: "I am!"
+
 infrequently_asked_question:
   question: "What... is the capitol of Assyria?"
   answer: "I don't know that!"
