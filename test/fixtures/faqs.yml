@@ -1,5 +1,4 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
 infrequently_asked_question:
   question: "What... is the capitol of Assyria?"
   answer: "I don't know that!"
@@ -14,4 +13,4 @@ no_quesion:
   
 no_answer:
   question: "this one has now answer"
-  answer:
+  answer: 
