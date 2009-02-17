@@ -7,6 +7,11 @@
   <b>Answer:</b>
   <%=h @faq.answer %>
 </p>
+<p>
+  <strong>Tags:</strong>
+  <% for tag in @faq.tags %> 
+  <%= link_to tag.name, faqs_path(:view =>'tag', :tag => tag.name) %><% end %>  
+</p>
 
 
 <%= link_to 'Edit', edit_faq_path(@faq) %> |

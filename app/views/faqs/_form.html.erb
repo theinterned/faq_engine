@@ -1,0 +1,19 @@
+<% form_for(@faq) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :question %><br />
+    <%= f.text_field :question %>
+  </p>
+  <p>
+    <%= f.label :answer %><br />
+    <%= f.text_field :answer %>
+  </p>
+  <p>
+    <%= f.label 'Tag List (Delimiter = ,)' %><br />
+    <%= f.text_field :tag_list %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
